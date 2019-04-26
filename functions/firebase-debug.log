@@ -1,0 +1,49 @@
+[debug] [2019-04-25T16:02:53.067Z] ----------------------------------------------------------------------
+[debug] [2019-04-25T16:02:53.069Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only functions,hosting
+[debug] [2019-04-25T16:02:53.069Z] CLI Version:   4.1.0
+[debug] [2019-04-25T16:02:53.069Z] Platform:      darwin
+[debug] [2019-04-25T16:02:53.069Z] Node Version:  v10.4.0
+[debug] [2019-04-25T16:02:53.069Z] Time:          Thu Apr 25 2019 17:02:53 GMT+0100 (British Summer Time)
+[debug] [2019-04-25T16:02:53.070Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-25T16:02:53.079Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-25T16:02:53.080Z] > authorizing via signed-in user
+[debug] [2019-04-25T16:02:53.082Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-25T16:02:53.082Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2019-04-25T16:02:53.299Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-25T16:02:53.315Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/eventattendees-c4e4c  
+ 
+[debug] [2019-04-25T16:02:53.864Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-25T16:02:53.865Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/eventattendees-c4e4c/tokens  
+ 
+[debug] [2019-04-25T16:02:54.381Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-25T16:02:54.382Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/eventattendees-c4e4c  
+ 
+[debug] [2019-04-25T16:02:55.105Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/venkatavadigepalli/Desktop/MyPersonal/FireBasePlayArea/eventAttendees'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-25T16:02:55.577Z] Fetching environment
+[debug] [2019-04-25T16:02:55.583Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/122461471600:getServerAppConfig  
+ 
+[debug] [2019-04-25T16:02:55.584Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/122461471600/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-25T16:02:55.806Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-25T16:02:55.807Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-25T16:02:55.883Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2019-04-25T16:02:57.376Z] Parsing function triggers
+[info] ✔  functions: app: http://localhost:5001/eventattendees-c4e4c/us-central1/app
+[info] [hosting] Rewriting /attendees to local function app
+[info] [hosting] Rewriting /attendees to local function app
+[info] [hosting] Rewriting /attendee/surnamekidambi to local function app
+[info] [hosting] Rewriting /attendee/surnamesn3 to local function app
+[info] [hosting] Rewriting /attendee/surnamesn4 to local function app
+[info] [hosting] Rewriting /attendee/ticketNo00001 to local function app
+[info] [hosting] Rewriting /attendee/ticketNo00003 to local function app
+[info] [hosting] Rewriting /attendee/ticketNo00003 to local function app
+[info] [hosting] Rewriting /attendee/ticketNo00004 to local function app
